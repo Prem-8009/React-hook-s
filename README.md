@@ -6,7 +6,7 @@ This project is a React application built with Vite and Tailwind CSS. It fetches
 - **Custom `useFetch` Hook**: Handles data fetching, loading spinners, and error states.
 - **80 Photo Grid**: A 4-column responsive layout styled to match the provided UI design.
 - **Context API**: Efficiently manages global state across the application.
-- **React Router**: Integrated for future page navigations.
+- **React Router**: Integrated for future page navigation.
 
 ## Technical Implementation
 - **Hooks Used**: `useState`, `useEffect`, and `useCallback` for optimized performance.
