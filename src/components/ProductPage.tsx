@@ -9,7 +9,7 @@ const ProductPage: React.FC = () => {
     data,
     loading,
     error
-  } = useFetch("https://api.escuelajs.co/api/v1/products");
+  } = useFetch<Item[]>("https://api.escuelajs.co/api/v1/products");
   if (loading) return <Spinner />;
   if (error) return <div className='flex items-center justify-center min-h-screen text-red-500'>Error: Failed to fetch data</div>;
   return (
